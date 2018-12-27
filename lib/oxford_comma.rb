@@ -1,3 +1,4 @@
 def oxford_comma(array)
-array.split
-end
+  if array.size == 1
+    return array.split
+end 
